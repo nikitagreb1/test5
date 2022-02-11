@@ -1,0 +1,452 @@
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+* {
+   font-family: "Fira Sans", sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.header {
+   background: url("../img/arugula.jpg") center center / cover no-repeat;
+   min-height: 700px;
+}
+
+.header-decor {
+   background: rgb(247, 245, 245);
+   min-height: 50px;
+   margin-bottom: 260px;
+}
+
+.header-nav {
+}
+
+.header-list {
+   max-width: 427px;
+   margin: 0 auto;
+   padding-top: 12px;
+}
+
+.header-list-item {
+   display: inline-block;
+   margin-left: 60px;
+}
+
+.header-list-item a {
+   word-spacing: 3px;
+   letter-spacing: 3px;
+   font-size: 22px;
+   color: rgb(27, 173, 231);
+}
+
+h1 {
+   text-align: center;
+   font-size: 60px;
+   font-style: oblique;
+   word-spacing: 5px;
+   letter-spacing: 5px;
+   color: rgba(43, 255, 202, 0.904);
+   font-weight: 700;
+}
+
+.header-title-block {
+   max-width: 856px;
+   margin: 0 auto;
+   padding: 15px;
+   background-color: #fff;
+}
+
+.main-bg {
+   background: url("../img/arugula-1.jpg") center center / cover no-repeat;
+   padding: 60px 0;
+}
+
+.original-author {
+}
+
+.original-author-row {
+   max-width: 933px;
+   margin: 0 auto;
+   border: 3px solid black;
+   background: #fff;
+   padding: 15px;
+}
+
+.original-author-row p {
+   display: inline-block;
+   background: url("../img/author.svg") 0 0 no-repeat;
+   padding-left: 20px;
+   margin-right: 60px;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+}
+
+.original-author-row span {
+   color: grey;
+}
+
+.original-author-row .data {
+   display: inline-block;
+   background: url("../img/date.svg") 0 0 no-repeat;
+   padding-left: 20px;
+   padding-right: 60px;
+}
+
+.thisis {
+   background: #fff;
+   max-width: 1591px;
+   margin: 0 auto;
+}
+
+.thisis-text {
+   text-align: center;
+   font-size: 26px;
+}
+
+.arugula {
+}
+
+.arugula-container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.arugula-bg {
+   background: #fff;
+   max-width: 600px;
+}
+
+.arugula-text {
+   max-width: 600px;
+   text-align: justify;
+}
+
+.whatis {
+}
+
+.whatis-title-bg {
+   background: #fff;
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.whatis-container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.whatis-text-bg {
+   background: #fff;
+   max-width: 600px;
+   margin: 0 0 0 auto;
+}
+
+.whatis-title {
+   text-align: center;
+}
+
+.whatis-text {
+   text-align: justify;
+}
+
+.compound {
+}
+
+.compound-container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.compound-text-bg {
+   background: #fff;
+   max-width: 600px;
+}
+
+.compound-text {
+   max-width: 600px;
+}
+
+.compound-list {
+   overflow: auto;
+   max-width: 300px;
+   background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+   padding: 20px;
+   max-height: 200px;
+}
+
+.compound-list-item {
+   background: url("../img/green.gif") 0 -12px/50px 50px no-repeat;
+   padding-left: 40px;
+   min-height: 50px;
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+
+.compound-subtext-bg {
+   background: #fff;
+   max-width: 600px;
+   margin: 0 0 0 auto;
+}
+
+.compound-subtext {
+   text-align: justify;
+}
+
+.color {
+   background-color: #bed2eead;
+   padding: 60px 0;
+}
+
+.seamless-b {
+   background: url("../img/fish.png") center / auto auto repeat;
+   min-height: 1140px;
+   margin-bottom: 60px;
+   padding-top: 510px;
+   padding-bottom: 510px;
+   box-shadow: 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-b-block {
+   background-color: #fff;
+   margin: 0 auto;
+   max-width: 1305px;
+   padding: 30px;
+   box-shadow: inset 3px 5px 16px 5px rgba(204, 50, 50, 0.39), 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-b-text {
+   font-size: 60px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 2px;
+   font-weight: 900;
+   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.seamless-b-x {
+   background: url("../img/fish.png") center / auto auto repeat-x;
+   min-height: 400px;
+   margin-bottom: 60px;
+   padding-top: 150px;
+   padding-bottom: 152px;
+   box-shadow: 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-b-x-block {
+   background-color: #fff;
+   max-width: 927px;
+   margin: 0 auto;
+   padding: 30px;
+   box-shadow: inset 3px 5px 16px 5px rgba(48, 219, 14, 0.39), 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-b-x-text {
+   font-size: 38px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 2px;
+   font-weight: 900;
+   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.seamless-b-y {
+   background: url("../img/fish.png") 50% 0 / auto auto repeat-y;
+   min-height: 1000px;
+   padding-top: 500px;
+   padding-bottom: 450px;
+}
+
+.seamless-b-y-block {
+   background-color: #fff;
+   max-width: 558px;
+   margin: 0 auto;
+   padding: 30px;
+   box-shadow: inset 3px 5px 16px 5px rgba(24, 28, 230, 0.39), 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-b-y-text {
+   font-size: 25px;
+   text-transform: uppercase;
+   font-weight: 900;
+   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.seamless-block {
+   min-height: 700px;
+   background: linear-gradient(
+      285deg,
+      hsl(284deg 79% 35%) 0%,
+      hsl(279deg 79% 37%) 22%,
+      hsl(274deg 80% 38%) 36%,
+      hsl(270deg 81% 40%) 46%,
+      hsl(266deg 81% 42%) 55%,
+      hsl(262deg 82% 43%) 64%,
+      hsl(259deg 82% 45%) 74%,
+      hsl(255deg 82% 46%) 85%,
+      hsl(251deg 83% 48%) 100%
+   );
+   padding: 70px 0;
+   box-shadow: 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-block-width {
+   max-width: 1400px;
+   min-height: 700px;
+   margin: 0 auto;
+   background: url("../img/memes.png") 5% center / 150px 150px no-repeat,
+      url("../img/memes.png") 95% center / 150px 150px no-repeat;
+}
+
+.seamless-block-over {
+   margin: 0 auto;
+   max-width: 650px;
+   background: url("../img/3d.jpg") center center / 100px 100px no-repeat fixed, url("../img/fish-1.png") center center;
+   border: 30px solid rgba(183, 0, 255, 0.671);
+   border-radius: 30px;
+   overflow: auto;
+   max-height: 700px;
+   padding: 30px;
+   box-shadow: 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-block-over img {
+   display: block;
+   margin: 0 auto;
+   width: 350px;
+   height: 350px;
+   box-shadow: 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.seamless-block-over p {
+   font-size: 60px;
+   color: rgba(255, 9, 91, 0.274);
+   text-align: center;
+   line-height: 1.5;
+   font-weight: 300;
+   text-shadow: 5px 5px 15px rgba(255, 0, 0, 0.911);
+}
+
+.bg-memes {
+   min-height: 1200px;
+   background: linear-gradient(
+         180deg,
+         rgba(255, 255, 255, 0) 0%,
+         rgba(255, 141, 0, 0.6671043417366946) 100%,
+         rgba(255, 146, 3, 0) 100%
+      ),
+      url("../img/memes.png") center center / 500px 500px no-repeat fixed, rgba(189, 46, 245, 0.548);
+}
+
+.bg-memes-width {
+   max-width: 1400px;
+   min-height: 1200px;
+   margin: 0 auto;
+   background: url("../img/karp.png") 0% center/ 400px auto no-repeat,
+      url("../img/karp.png") 100% center/ 400px auto no-repeat;
+}
+
+.bg-memes-1 {
+   min-height: 1200px;
+   background: linear-gradient(
+         0deg,
+         rgba(255, 255, 255, 0) 0%,
+         rgba(0, 146, 255, 0.6671043417366946) 100%,
+         rgba(255, 146, 3, 0) 100%
+      ),
+      url("../img/karp.png") center center / 600px 400px no-repeat fixed, rgba(170, 230, 59, 0.548);
+}
+
+.bg-memes-width-1 {
+   max-width: 1400px;
+   min-height: 1200px;
+   margin: 0 auto;
+   background: url("../img/memes.png") 5% center/ 250px auto no-repeat,
+      url("../img/memes.png") 95% center/ 250px auto no-repeat;
+}
+
+.just-bg {
+   min-height: 1200px;
+   background: url("../img/bg.jpg") center center / cover no-repeat;
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+.just-bg-width {
+   max-width: 1400px;
+   margin: 0 auto;
+}
+
+.just-bg-info-block {
+   max-width: 1170px;
+   background: #fff;
+   padding: 20px;
+   margin: 0 auto 350px;
+   box-shadow: inset 3px 5px 16px 5px rgba(230, 24, 178, 0.39), 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.just-bg-info-block p {
+   font-size: 36px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   word-spacing: 2px;
+   font-weight: 900;
+   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.just-bg-list-block {
+   max-width: 500px;
+   background: #fff;
+   margin-bottom: 70px;
+   box-shadow: inset 3px 5px 16px 5px rgba(7, 243, 231, 0.39), 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.just-bg-list {
+   padding: 15px;
+}
+
+.just-bg-list-item {
+   font-size: 35px;
+   background: url("../img/karp.png") 0 0/36px 36px no-repeat;
+   padding-left: 40px;
+   margin-bottom: 15px;
+   font-weight: 300;
+   letter-spacing: 3px;
+   word-spacing: 2px;
+   text-shadow: 5px 5px 15px rgba(90, 1, 255, 0.788);
+}
+
+.just-bg-text-block {
+   max-width: 652px;
+   background: #fff;
+   padding: 15px;
+   margin: 0 0 0px auto;
+   box-shadow: inset 3px 5px 16px 5px rgba(0, 255, 136, 0.39), 3px 5px 16px 5px rgba(0, 0, 0, 0.39);
+}
+
+.just-bg-text {
+   font-size: 23px;
+   line-height: 1.5;
+   letter-spacing: 3px;
+   word-spacing: 4px;
+   text-align: justify;
+   font-weight: 300;
+   text-shadow: 5px 5px 15px rgba(180, 223, 28, 0.719);
+}
+
+.mbn {
+   margin-bottom: 0;
+}
+
+.mln {
+   margin-left: 0;
+}
+
+.data.mrn {
+   margin-right: 0;
+}
+
+.data.prn {
+   padding-right: 0;
+}
